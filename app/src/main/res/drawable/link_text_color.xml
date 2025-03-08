@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- Color when link is pressed -->
+        <item android:color="@color/link_pressed" android:state_pressed="true"/>
+
+        <!-- Color when link is focused (keyboard navigation) -->
+        <item android:color="@color/link_focused" android:state_focused="true"/>
+
+        <!-- Default color for normal state -->
+        <item android:color="@color/link_default"/>
+</selector>
