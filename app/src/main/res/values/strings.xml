@@ -11,5 +11,11 @@
     <string name="login_button">Login</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="signup_redirect">No account? Sign Up</string>
+    <string name="username">UserName</string>
+    <string name="title">Title</string>
+    <string name="sample_to_do">Sample To Do</string>
+    <string name="delete">Delete</string>
+    <string name="delete_task">Delete Task</string>
+
 
 </resources>
