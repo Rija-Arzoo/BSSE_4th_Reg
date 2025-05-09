@@ -5,21 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@color/background">
+
 
     <EditText
         android:id="@+id/todoText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter your task" />
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_your_task"
+        android:background="@drawable/edittext_bg"/>
 
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/addButton"
-        android:layout_width="wrap_content"
+        android:layout_width="115dp"
         android:layout_height="wrap_content"
-        android:text="Add Task"
-        android:layout_gravity="center"/>
+        android:text="@string/add_task"
+        android:textAllCaps="false"
+        android:layout_margin="16dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:background="@drawable/todobutton_bg"/>
 
 <androidx.recyclerview.widget.RecyclerView
     android:id="@+id/recyclerView"

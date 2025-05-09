@@ -16,6 +16,8 @@
     <string name="sample_to_do">Sample To Do</string>
     <string name="delete">Delete</string>
     <string name="delete_task">Delete Task</string>
+    <string name="enter_your_task">Enter your task</string>
+    <string name="add_task">Add Task</string>
 
 
 </resources>
